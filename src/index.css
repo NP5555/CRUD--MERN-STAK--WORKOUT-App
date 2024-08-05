@@ -3,11 +3,14 @@
 
 /* layout */
 :root {
-  --primary: #2ebad0;
+  color: #ddd;
+  --primary: #6f7576;
   --error: #e7195a;
+  background-image: url("./Gymimage.jpg");
+  background-size: cover;
 }
 body {
-  background: #2ebad0;
+  
   margin: 0;
   font-family: "Poppins";
 }
@@ -15,6 +18,7 @@ header {
   background: #f1e3e3;
 }
 header .container {
+  filter: blur(4px);
   max-width: 1400px;
   margin: 0 auto;
   padding: 10px 20px;
@@ -23,7 +27,7 @@ header .container {
   justify-content: space-between;
 }
 header a {
-  color: #333;
+  /* color: #333; */
   text-decoration: none;
 }
 .pages{
@@ -100,4 +104,21 @@ div.error {
 }
 input.error{
 border: 1px solid var(--error);
+}
+.image{
+    /* The image used */
+    background-image: url("./Gymimage.jpg");
+
+    /* Add the blur effect */
+    filter: blur(8px);
+    -webkit-filter: blur(8px);
+  
+    /* Full height */
+    height: 100%;
+  
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
 }

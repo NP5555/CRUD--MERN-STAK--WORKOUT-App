@@ -2,6 +2,7 @@ import {BrowserRouter, Routes, Route} from "react-router-dom"
 // pages & component
 import Home from "../src/pages/Home"
 import  Navbar  from "./components/Navbar";
+import image from '../src/Gymimage.jpg';
 
 
 function App() {
