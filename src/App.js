@@ -2,7 +2,8 @@ import {BrowserRouter, Routes, Route} from "react-router-dom"
 // pages & component
 import Home from "../src/pages/Home"
 import  Navbar  from "./components/Navbar";
-import image from '../src/Gymimage.jpg';
+// import image from '../src/Gymimage.jpg';
+// import Footer from "./components/Footer";
 
 
 function App() {
@@ -17,6 +18,7 @@ function App() {
   element={ <Home/>}
   />
 </Routes>
+
 </div>
 </BrowserRouter>
     </div>

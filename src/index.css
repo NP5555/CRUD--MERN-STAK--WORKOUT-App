@@ -4,13 +4,14 @@
 /* layout */
 :root {
   color: #ddd;
-  --primary: #6f7576;
+  --primary: #44646a;
   --error: #e7195a;
-  background-image: url("./Gymimage.jpg");
-  background-size: cover;
 }
 body {
-  
+  background-size: cover;
+
+
+  background-image: url("./Gymimage.jpg");
   margin: 0;
   font-family: "Poppins";
 }
@@ -36,6 +37,8 @@ header a {
   margin: 0 auto;
 }
 
+/* Footer */
+/*  */
 /* homepage */
 .home {
   display: grid;
@@ -121,4 +124,8 @@ border: 1px solid var(--error);
     background-repeat: no-repeat;
     background-size: cover;
 
+}
+.create{
+  color: #ddd;
+  /* background: transparent"50%"; */
 }
